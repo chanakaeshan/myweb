@@ -261,6 +261,7 @@ section{
 .about-img img{
     position: relative;
     width: 30vw;
+    height: 30vw;
     border-radius: 50%;
     cursor: pointer;
 }
