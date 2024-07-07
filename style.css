@@ -374,10 +374,8 @@ section{
 }
 
 .projects-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     margin-bottom: 6rem;
 }
